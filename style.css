@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar {
+    height:9vh;
+    background-color: #0f1111;
+    display:flex;
+    justify-content: space-evenly;
+}
+.border:hover{
+    border:0.05rem solid white;
+}
+
+/* nav1 */
+.logo a{
+    margin-left:0.5rem;
+    margin-top :8px;
+    margin-bottom:3px;
+    display:inline-block;
+    background-image: url("logo1.png");
+    background-size:contain;
+    background-repeat: no-repeat ;
+    width: 6.8vw;
+    height:7vh;
+}
+
+/* nav2 */
+.location{
+    cursor:pointer;
+    width:5vw;
+    height:6.5vh;
+    margin-top:0.5em;
+    padding:5px 0px 0px 5px;
+    
+}
+.add-first{
+    color:#CCCCCC;
+    font-size:0.8em;
+    margin-left:0.8em;
+}
+.add-icon{
+    color:white;
+    font-weight:700;
+    display:flex;
+}
+
+/* nav 3 */
+.search-bar{
+    width:50rem;
+    height:2.8em;
+    margin:0.5em;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #deb03c;
+    border-radius:5px;
+}
+.search-bar:hover{
+    border:2px solid orange;
+}
+.search-select {
+    cursor:pointer;
+    width:3em;
+    height:2.8em;
+    background-color:silver;
+    border:none;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    text-align:center;
+}
+.search-select select{
+    cursor:pointer;
+    /* max-height: 10vh; */
+    padding:14.5px 10px;
+    border:0.2px solid rgb(118,118,118);
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    font-size:13px;
+    background-color:#c1caca;
+}
+.search-select select option{
+        /* color:#0f1111; */
+        background-color:white;
+}
+
+.search-es input{
+    color:#888C8C;
+    height:2.74em;
+    width:43em;
+    padding-left:0.5em;
+    font-size: medium;
+    border:1px solid white;
+    font-weight: lighter;
+}
+.search-glass{
+    cursor:pointer;
+    width:3em;
+    background-color: #deb03c;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.search-glass i{
+    font-size:25px;
+    margin:10px;
+}
+/* extra nav */
+.flag-icon{
+    cursor:pointer;
+    margin:8px;
+    padding:15px 0px 15px 5px;
+    display: flex;
+    height:20px;
+    width:4.4rem;
+}
+.flag-icon img{
+    border-radius:3px;
+}
+.flag-icon select{
+    margin-top:4px;
+    margin-left:4px;
+    color:white;
+    font-weight: 700;
+    border:none;
+    background-color: transparent;
+}
+
+/* nav3 */
+.signin{
+    cursor:pointer;
+    padding:5px 0px 0px 5px;
+    height:3em;
+    margin:0.5em;
+}
+.hello{
+    font-size:0.8rem;
+    color:white;
+}
+.acc select{
+    cursor:pointer;
+    color:white;
+    border:none;
+    font-weight:700;
+    background-color: black;
+}
+/* nav4 */
+.orders{
+    cursor:pointer;
+    margin-top: 0.5em;  
+    height:3em;
+    padding:5px 5px 0px 5px;
+}
+.ord-ret{
+    color:white;
+    font-size:0.8em;
+}
+.ord-ord{
+    color:white;
+    font-weight:700;
+}
+
+/* nav5 */
+.cart{
+    cursor:pointer;
+    width:5rem;
+    height:2.5em;
+    padding:4px;
+    margin-top:0.5em;
+    display:flex    ;
+    font-weight:700;
+}
+
+.cart-icon i{
+    color:white;
+    width:1.2em;
+    font-size:1.9rem;
+    margin-top:5px;
+}
+.cart-cart{
+    color:white;
+    margin-top:0.9em;
+    height:1.2em;
+}
+
+/* panel */
+.panel{
+    color:white;
+    padding:0.5em 0em;
+    height:3vh;
+    background-color: #1d263d;
+}
+
+.panel-options li{
+    font-weight:500;
+    cursor:pointer;
+    padding:3px 10px;
+    list-style:none;
+    display:inline-block;
+}
+
+/* Hero section */
+.hero-section{
+    height: 160vh;
+    background-color: #CCCCCC;
+}
+
+.main-img{
+    margin:0px 1rem;
+    height:50vh;
+    background-image: url("hero.jpg");
+    background-size:cover;
+}
+.main-img p{
+    font-size:13px;
+    margin:18rem 2rem;
+    width:90rem;
+    height:2.4rem; 
+    background-color: white;
+    font-weight:400;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.main-img a{
+    color:rgb(0, 136, 255);
+}
+.main-img a:hover{
+    cursor:pointer;
+    color:rgb(188, 5, 5);
+}
+
+.images1{
+    display:flex;
+    justify-content:space-evenly;
+}
+.box1{
+    width:23%;
+    height:50vh;
+    background-color: white;
+}
+.box1-img{
+    background-image: url("hero1.jpg");
+    background-size: contain;
+    width:19em;
+    height:35vh;
+    margin:20px;
+}
+.box1-img:hover{
+    cursor: pointer;
+}
+
+.box2{
+    width:23%;
+    height:50vh;
+    background-color: white;
+}
+.box2-img{
+    background-image: url("hero2.jpg");
+    background-size: contain;
+    width:19em;
+    height:31vh;
+    margin:20px;
+}
+.box2-img:hover{
+    cursor: pointer;
+}
+
+.box3{
+    width:23%;
+    height:50vh;
+    background-color: white;
+}
+.box3-img{
+    background-image: url("hero3.jpg");
+    background-size: contain;
+    width:19em;
+    height:35vh;
+    margin:20px;
+}
+.box3-img:hover{
+    cursor: pointer;
+}
+
+.box4{
+    width:23%;
+    height:50vh;
+    background-color: white;
+}
+.box4-img{
+    background-image: url("hero4.jpg");
+    background-size: contain;
+    width:19em;
+    height:35vh;
+    margin:20px;
+}
+.box4-img:hover{
+    cursor: pointer;
+}
+.images2{
+    margin-top:2rem;
+    display:flex;
+    justify-content:space-evenly;
+}
+.box5{
+    width:23%;
+    height:50vh;
+    background-color: white;
+}
+.box5-img{
+    background-image: url("hero5.jpg");
+    background-size: contain;
+    width:19em;
+    height:35vh;
+    margin:20px;
+}
+.box5-img:hover{
+    cursor: pointer;
+}
+
+.box6{
+    width:23%;
+    height:50vh;
+    background-color: white;
+}
+.box6-img{
+    background-image: url("hero6.jpg");
+    background-size: contain;
+    width:19em;
+    height:35vh;
+    margin:20px;
+}
+.box6-img:hover{
+    cursor: pointer;
+}
+
+.box7{
+    width:23%;
+    height:50vh;
+    background-color: white;
+}
+.box7-img{
+    background-image: url("hero7.jpg");
+    background-size: contain;
+    width:19em;
+    height:35vh;
+    margin:20px;
+}
+.box7-img:hover{
+    cursor: pointer;
+}
+
+.box8{
+    width:23%;
+    height:50vh;
+    background-color: white;
+}
+.box8-img{
+    background-image: url("hero8.jpg");
+    background-size:contain;
+    width:19em;
+    height:35vh;
+    margin:20px;
+}
+.box8-img:hover{
+    cursor: pointer;
+}
+.box h2{
+    margin:10px;
+}
+.box p{
+    margin:10px;
+    color:#007185;
+    font-size:0.9em;
+}
+.box p:hover{
+    cursor:pointer;
+    color:rgb(188, 5, 5);
+}
+
+main{
+    margin:1rem 0rem;
+    padding:0.5rem 0rem;
+    border: 1px solid #aba9a9; 
+    border-radius:5px;
+    text-align:center;
+}
+.see{
+    display:block;
+    font-size:0.8em;
+}
+.sign{
+    font-size:0.8em;
+    cursor:pointer;
+    background-color: #deb03c;
+    margin:5px 650px;
+    padding:5px 0px;
+    font-weight:600;
+    border:2px solid orange;
+    border-radius:5px; 
+}
+.here{
+    font-size:0.7em;
+}
+.here1{
+    cursor:pointer;
+    color:#1d263d;
+}
+.here1:hover{
+    color:rgb(188, 5, 5);
+}
+/* footer */
+.foot-back{
+    cursor:pointer;
+    height:3vh;
+    color:white;
+    font-size:15px;
+    background-color: #2e3f4f;
+    text-align:center;
+    padding:0.7em;
+}
+.foot-back a{
+    color:white;
+    text-decoration:underline #2e3f4f;
+}
+.foot-back:hover{
+    background-color: #404e5c;
+}
+
+.foot-more{
+    height:50vh;
+    background-color: #232F3E;   
+    display:flex;
+    justify-content: space-evenly;
+}
+.foot-more ul{
+    padding:2em;
+    display:inline-block;
+    list-style:none;
+}
+.li-head{
+    color:white;
+    font-size:medium;
+    font-weight:600;
+}
+.li-li{
+    color:#FFF;
+    font-size:15px;
+    margin-top:1em;
+}
+.li-li:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.foot-more2{
+    height:10vh;
+    padding:1rem 0rem;
+    background-color: #232F3E;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top:0.1px solid #5e5e5e;
+}
+.foot-amz-img{
+    margin:0em 4em;
+    color:#CCCCCC;
+}
+.currency p{
+    font-size:12px;
+    cursor:pointer;
+    margin-left:0.5em;
+    padding:8px 25px;
+    border: 1px solid #CCCCCC;
+    border-radius:3px;
+    display: inline-block;
+    color:#CCCCCC;
+}
+
+.privacy{
+    height:8vh;
+    padding:10px;
+    background-color: #0f1111;
+    color:#DDDDDD;
+}
+.prv ul{
+    padding:0.5em;
+    font-size:0.8em;
+    list-style:none;
+    display:flex;
+    justify-content: center;
+}
+.prv ul li{
+    margin-left:1.5em;
+}
+.prv ul li:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.copy{
+    margin-top:0.2em;
+    text-align:center;
+    font-size:0.8em;
+}
+
